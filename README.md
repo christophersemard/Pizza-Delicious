@@ -1,74 +1,46 @@
-# Pizzeria
+<h1 align="center">🍕 Pizza Delicious</h1>
 
-Site e-commerce de pizzeria utilisant MongoDB pour la base de données, un back-end via Express JS utilisé en API et un front-end en React et React Bootstrap.
+<p align="center">Prototype e-commerce de pizzeria avec catalogue, compte client, panier et commande.</p>
 
-# Getting Started with Create React App
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React 18" />
+  <img src="https://img.shields.io/badge/Express-4-000000?style=flat-square&logo=express&logoColor=white" alt="Express 4" />
+  <img src="https://img.shields.io/badge/MongoDB-local-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Bootstrap-5-7952B3?style=flat-square&logo=bootstrap&logoColor=white" alt="Bootstrap 5" />
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## À propos
 
-## Available Scripts
+Projet full-stack réalisé pour explorer la construction d'un parcours de commande : consultation des pizzas, création de compte, connexion, panier, commande et paiement simulé côté interface.
 
-In the project directory, you can run:
+Le frontend React communique avec une API Express qui persiste les utilisateurs, les pizzas et les commandes dans MongoDB.
 
-### `npm start`
+## Fonctionnalités
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- catalogue et fiche produit ;
+- inscription et connexion utilisateur ;
+- panier et validation de commande ;
+- espace de suivi de commande ;
+- composants React Bootstrap et navigation protégée ;
+- routes API Express pour les utilisateurs, pizzas et commandes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Lancer en local
 
-### `npm test`
+Prérequis : Node.js, npm et une instance MongoDB locale avec une base pizzeria.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    npm install
+    node server/server.js
 
-### `npm run build`
+Dans un second terminal :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Le frontend est disponible sur http://localhost:3000 et l'API sur http://localhost:8080.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contexte
 
-### `npm run eject`
+Projet pédagogique conservé comme exemple d'application React/Express. Les paiements et les données de démonstration ne doivent pas être utilisés en production.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Auteur
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Christopher Semard](https://github.com/christophersemard)
