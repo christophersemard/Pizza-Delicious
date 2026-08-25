@@ -41,7 +41,7 @@ Le frontend est disponible sur http://localhost:3000 et l'API sur http://localho
 
 Projet pédagogique conservé comme exemple d'application React/Express. Les paiements et les données de démonstration ne doivent pas être utilisés en production.
 
-> Documentation de projet revue en août 2026.
+> Projet mis en avant dans la vitrine GitHub ; documentation revue en août 2026.
 
 ## Auteur
 
